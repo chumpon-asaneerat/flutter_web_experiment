@@ -16,7 +16,8 @@
                 "--web-port=5000",
                 "--web-enable-expression-evaluation"
             ]
-        }, {
+        }, 
+        {
             "deviceId": "chrome",
             "name": "Flutter for web (profile)",
             "type": "dart",
