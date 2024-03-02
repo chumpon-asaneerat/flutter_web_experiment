@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "deviceId": "chrome",
+            "name": "Flutter for web",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": [
+                "-d",
+                "chrome",
+                "--web-port=5000",
+                "--web-enable-expression-evaluation"
+            ]
+        }, {
+            "deviceId": "chrome",
+            "name": "Flutter for web (profile)",
+            "type": "dart",
+            "request": "launch",
+            "flutterMode": "profile",
+            "program": "lib/main.dart",
+            "args": [
+                "-d",
+                "chrome",
+                "--web-port=5000",
+                "--web-enable-expression-evaluation"
+            ]
+        }
+    ]
+}
